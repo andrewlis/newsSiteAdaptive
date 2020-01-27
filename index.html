@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Новостное агенство</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header id="black-bar">
+		<div class="fixed-container">
+		Самые <a href="#">свежие новости</a> в реальном времени
+		<div id="date-time">12:13 08.02.2019</div>
+		</div>
+	</header>
+	<main id="header">
+		<div class="fixed-container" id="header-fixed-container">
+			<div class="head-left">
+			<img id="logo" src="img/logo.png" alt="Логотип компании">
+				<select id="select">
+					<option>Москва</option>
+					<option>Баку</option>
+					<option>Челяба</option>
+					<option>Пидербург</option>
+					<option>Майами</option>
+				</select>
+			</div>
+			<img id="mobile-menu" src="img/mobile-menu.png">
+			<img id="mobile-logo" src="img/mobile-logo.png">
+			<img id="mobile-search" src="img/mobile-search.png">
+			<div class="head-right">
+				<div id="weather">+22 &#176;C</div>
+				<input id="input-place" type="text" name="search" placeholder="Поиск по сайту">
+			</div>
+		</div>
+	</main>
+	<div id="menu">
+		<div class="fixed-container">
+			<nav class="menu-text">Главная</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Политика</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Общество</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Экономика</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">В мире</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Проишествия</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Спорт</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Наука</nav>
+			<img class="slash" src="img/slash.png" alt="Слэш">
+			<nav class="menu-text">Туризм</nav>
+		</div>
+	</div>
+	<div id="central-container">
+		<div class="fixed-container" id="flex-container">
+			<div class="date-weather">
+				<div class="date">25 февраля, Пн</div>
+				<div class="item-time-new">10:45</div>
+				<div class="weather-new">-7 &#176;C</div>
+			</div>
+			<aside id="column-left">
+				<h2>Новости дня</h2>
+				<div class="news-item">
+					<div class="item-text">
+						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+					</div>
+					<nav class="item-prop">
+						<a href="#">/ ЧМ по футболу</a>
+						<div class="item-time">10:45</div>
+						<div class="item-comment">17</div>
+					</nav>
+				</div>
+				<div class="news-item">
+					<div class="item-text">
+						«Нафтогаз»: суд разрешил заморозить активы «Газпрома» в Великобритании
+					</div>
+					<nav class="item-prop">
+						<a href="#">/ Политика</a>
+						<div class="item-time">10:45</div>
+						<div class="item-comment">17</div>
+					</nav>
+				</div>
+				<div class="news-item">
+					<div class="item-text">
+						Минтранс предписал оборудовать общественный транспорт кондиционерами
+					</div>
+					<nav class="item-prop">
+						<a href="#">/ Транспорт</a>
+						<div class="item-time">10:45</div>
+						<div class="item-comment">17</div>
+					</nav>
+				</div>
+				<div class="news-item">
+					<div class="item-text">
+						Летние кафе Москвы временно закроются из-за непогоды
+					</div>
+					<nav class="item-prop">
+						<a href="#">/ Погода</a>
+						<div class="item-time">10:45</div>
+						<div class="item-comment">17</div>
+					</nav>
+				</div>
+				<div class="news-item">
+					<div class="item-text">
+						Комплексное благоустройство Щелковского шоссе завершится в июне
+					</div>
+					<nav class="item-prop">
+						<a href="#">/ Транспорт</a>
+						<div class="item-time">10:45</div>
+						<div class="item-comment">17</div>
+					</nav>
+				</div>
+				<div class="news-item">
+					<div class="item-text">
+						В Москве назвали самое популярное мороженое у болельщиков ЧМ-2018
+					</div>
+					<nav class="item-prop">
+						<a href="#">/ ЧМ по футболу</a>
+						<div class="item-time">10:45</div>
+						<div class="item-comment">17</div>
+					</nav>
+				</div>
+				<nav id="button-rigth">
+					<button>Все новости</button>
+				</nav>
+			</aside>
+			<main id="column-center">
+				<div id="central-picture">
+					<div class="central-picture-text">
+						<nav id="picture-tor">
+							<a href="#">/Политика</a>
+						</nav>
+						<div id="picture-center">
+							<b>В Крыму отреагировали на слова Кравчука о&nbsp;возврате полуострова</b>
+						</div>
+						<div id="picture-bottom">
+							<div id="picture-bottom-date">
+								19 Июня 2018
+							</div>
+							<div id="picture-bottom-time">
+								10:48
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="bottom-news">
+						<div class="bottom-news-left">
+							<img src="img/navalniy.png" alt="Навальный кричит">
+							<div class="bottom-sign">
+								<b>Алексей Навальный объявил акцию против пенсионной реформы 1 июля</b>
+							</div>
+							<nav class="bottom-prop">
+								<a href="#">/ Политика</a>
+								<div class="bottom-time">10:48</div>
+								<div class="bottom-comment">15</div>
+							</nav>
+						</div>
+					<div class="bottom-news-rigth">
+						<img src="img/passport.png" alt="Три паспорта на столе">
+						<div class="bottom-sign">
+							<b>Дума увеличила пошлины за выдачу загранпаспортов и водительских прав</b> 
+						</div>
+						<nav class="bottom-prop">
+							<a href="#">/Общество</a>
+							<div class="bottom-time">12:33</div>
+							<div class="bottom-comment">36</div>
+						</nav>
+					</div>
+				</div>
+				<div class="bottom-news">
+						<div class="bottom-news-left">
+							<img src="img/telka.png" alt="Девушка в наушниках">
+							<div class="bottom-sign">
+								<b>В России заработал стриминговый сервис YouTube</b>
+							</div>
+							<nav class="bottom-prop">
+								<a href="#">/Интернет</a>
+								<div class="bottom-time">11:17</div>
+								<div class="bottom-comment">10</div>
+							</nav>
+						</div>
+					<div class="bottom-news-rigth">
+						<img src="img/kokoko.png" alt="Футболист кричит">
+						<div class="bottom-sign">
+							<b>Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия</b>
+						</div>
+						<nav class="bottom-prop">
+							<a href="#">/Политика</a>
+							<div class="bottom-time">11:39</div>
+							<div class="bottom-comment">25</div>
+						</nav>
+					</div>
+				</div>
+			</main>
+			<aside id="column-rigth">
+				<img src="img/banner-1.png" alt="Реклама машины">
+				<img class="man" src="img/banner-2.png" alt="Реклама мужчины">
+			</aside>
+		</div>
+	</div>
+	<div id="special-news-container">
+		<div class="fixed-container" id="fixed-news-container">
+			<div id="special-news">
+				<div id="special-news-theme">
+						<a href="#">/Политика</a>
+					<div id="special-news-name">
+						Пекин обвинил Вашингтон в&nbsp;развязывании торговой <br>войны
+					</div>
+					<nav id="special-news-time-date">
+						<div id="special-news-date">19 Июня 2018</div>
+						<div id="special-news-time">10:48</div>
+					</nav>
+					<div id="special-news-description">
+						Министерство коммерции Китая заявило, что Пекин примет «качественные» и «количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары
+					</div>
+				</div>
+			</div>
+			<div id="special-news-righth">
+				<h2>Самые читаемые новости</h2>
+				<div class="special-news-item">
+					<div class="special-text">
+						В Турции пообещали найти альтернативу из-за отказа США поставить F-35
+					</div>
+					<nav class="special-prop">
+						<a href="#">/Политика</a>
+						<div class="special-time">11:39</div>
+						<div class="special-comment">25</div>
+					</nav>
+				</div>
+				<div class="special-news-item">
+					<div class="special-text">
+						Назван минимальный доход для причисления к среднему классу‍
+					</div>
+					<nav class="special-prop">
+						<a href="#">/Политика</a>
+						<div class="special-time">11:39</div>
+						<div class="special-comment">25</div>
+					</nav>
+				</div>	
+				<div class="special-news-item">
+					<div class="special-text">
+						Назван минимальный доход для причисления к среднему классу‍
+					</div>
+					<nav class="special-prop">
+						<a href="#">/Политика</a>
+						<div class="special-time">11:39</div>
+						<div class="special-comment">25</div>
+					</nav>
+				</div>				
+			</div>
+		</div>
+	</div>
+	  	<div id="navigation-panel">
+			<div class="fixed-container" id="bottom-container">
+					<div id="navigation">
+						<nav id="navigation-right">
+							<div class="links">
+								<a href="#">Главная</a>
+							</div>
+							<div class="links">
+								<a href="#">Политика</a>
+							</div>
+							<div class="links">
+								<a href="#">Общество</a>
+							</div>
+							<div class="links">
+								<a href="#">Экономика</a>
+							</div>
+							<div class="links">
+								<a href="#">В мире</a>
+							</div>
+						</nav>
+						<nav id="navigation-left">
+							<div class="links">
+								<a href="#">Путешествия</a>
+							</div>
+							<div class="links">	
+							<a href="#">Спорт</a>
+							</div>
+							<div class="links">
+							<a href="#">Наука</a>
+							</div>
+							<div class="links">
+							<a href="#">Туризм</a>
+							</div>
+						</nav>
+					</div>
+					<div id="company-information">
+						<img src="img/footer-logo.png" alt="Логотип компании">
+						<nav id="logos-container">
+							<div class="links" id="mobile-link">
+								<a href="#">Об агенстве</a>
+							</div>
+							<div class="links">
+								<a href="#">Контакты</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									Опубликовать новость
+								</a>
+							</div>	
+						</nav>
+					</div>
+					<nav id="contacts">
+						<div id="logos">
+							<img src="img/vk-logo.png" alt="Логотип Вконтакте">
+							<img src="img/facebook.png" alt="Логотип Фэйсбук">
+							<img src="img/twitter-logo.png" alt="Логотип Твиттер">
+							<img src="img/instagramm-logo.png" alt="Логотип Инстаграм">
+						</div>
+						<div id="phone">
+							+7 (499) 995-55-55
+						</div>
+						<div id="mail">
+							info@agency.ru
+						</div>
+					</nav>
+				</div>
+			</div>
+	<footer>
+		© Новостное агентство, 2017-2018 все права защищены
+	</footer>	
+</body>
+</html>
