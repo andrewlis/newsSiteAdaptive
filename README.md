@@ -1,0 +1,2 @@
+# newsSiteAdaptive
+simple singleFile project
